@@ -12,7 +12,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-        <title>Lab 4 - CPRG352</title>
      <title>Lab 4 - CPRG352</title>
        <style>
 
@@ -65,15 +64,14 @@
     </head>
     <body>
         <h1>Note Keeper</h1>   
-        <form  method="POST" action="Note">
+        <form  method="POST" action="note">
             <div class="note pad">         
                Title:&nbsp; <input type="text" name="title" value="${note.noteTitle}">
                <br>
                Content:&nbsp; <input type="text" name="content" value="${note.noteContent}">
             </div>
             <div class="note pad"> 
-                <input type="submit" value="Save">
-                <input type="hidden" name="Save" value="save">
+                <input type="submit" name ="submit" value="Save">               
             </div>
         </form>
       

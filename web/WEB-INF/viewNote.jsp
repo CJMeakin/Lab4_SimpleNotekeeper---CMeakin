@@ -69,10 +69,7 @@
             <br>
             Contents: &nbsp;${note.noteContent}
         </div> 
-            
-        <form class ="edit pad" method ="POST">
-           <input type="submit" value="Edit">
-        </form>
+        <a class ="edit pad" href="note?edit">Edit</a>
       
     </body>
 </html>
